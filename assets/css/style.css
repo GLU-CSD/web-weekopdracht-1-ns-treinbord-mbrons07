@@ -1,9 +1,18 @@
+body{
+    background-image: url(/assets/img/image.png);
+    background-repeat: no-repeat;
+}
+
+
 #container{
+    opacity:0.5;
     width: 936px;
     display: flex;
-    margin: 0 auto;
+    /*margin:0 auto; */
     font-family: Arial, Helvetica, sans-serif;
     border: 2px solid #000;
+    margin-left: 124px;
+    margin-top: 146px;
 }
 
 #left{
@@ -22,9 +31,37 @@
     border: 2px solid #000;
 }
 
+#middlewhite {
+    width: 450;
+    height: 270;
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
 #right{
     width:128px;
     height: 335px;
     background-color: rgb(0, 0, 106);
     border: 2px solid #000;
+}
+
+
+.witVierkantRechts{
+    width: 94px;
+    height: 94px;
+    background-color: white;
+    margin-top: 36px;
+    margin-left: 15px;
+}
+
+.blauwVierkantRechtsKlein{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    margin-left: 955px;
+    margin-top: -95px;
+    background-color: rgb(0,0,106);
 }
