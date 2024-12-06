@@ -5,7 +5,7 @@ body{
 
 
 #container{
-    opacity:0.5;
+    opacity:;
     width: 936px;
     display: flex;
     /*margin:0 auto; */
@@ -90,11 +90,95 @@ body{
     font-size: 30px;
     margin-left: 20px;
     vertical-align: bottom;
-    margin-top: -60px;
+    margin-top: -85px;
 }
 
 .treinLocatieTekst{
     color: rgb(0, 36, 152);
-    margin-left: 240px;
+    margin-left: 230px;
     font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.locatie{
+    color: rgb(0, 36, 152);
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+.locaties{
+    color: rgb(0, 36, 152);
+    font-size: 30px;
+}
+
+.volgendeTrein{
+    color: white;
+    margin-left: 30px;
+    margin-top: 45px;
+    font-size: 20px;
+}
+.klok{
+    width: 210px;
+    margin-left: 11px;
+    padding-top: 5px;
+}
+.klokbase{
+    
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    border-color: rgb(197, 201, 218);
+    border-width: 9px;
+    border-style:inherit;
+    width: 170px;
+    height: 170px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.klokvorm{
+    width: 265px;
+    margin-left: -47px;
+    margin-top: -3px;
+}
+.klokrondje{
+    background-color: #000;
+    width: 5px;
+    height: 4.5px;
+    border-radius: 50%;
+    margin-top: -95px;
+    margin-left: 82px;
+}
+.groteWijzer{
+    width: 5px;
+    height: 60px;
+    margin-left: 82px;
+    margin-top: -62px;
+    background-color: #000;
+    animation: wijzers 3600s infinite linear;
+    transform-origin: bottom;
+}
+.kleineWijzer{
+    width: 5px;
+    height: 40px;
+    margin-left: 82px;
+    margin-top: -42px;
+    background-color: #000;
+    animation: wijzers 216000s infinite linear;
+    transform-origin: bottom;
+}
+.secondeWijzer{
+    width: 5px;
+    height: 70px;
+    margin-left: 82px;
+    margin-top: -68px;
+    background-color: #fe9800;
+    animation: wijzers 60s infinite linear;
+    transform-origin: bottom;
+}
+@keyframes wijzers{
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
 }
